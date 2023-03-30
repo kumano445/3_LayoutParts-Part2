@@ -119,18 +119,17 @@
   padding: 20px;
   background: #fff;
   border-left: 0;
+  transition: .5s;
 }
 
 .image{
   width: 150px;
   height: 150px;
-  background: url(https://picsum.photos/id/1005/200/300);
+  background: url(https://picsum.photos/id/1005/200/300)no-repeat center/cover;
   border-radius: 50%;
-  background-size: cover;
-  background-position: center;
   margin: 0 auto;
 }
-.text{
+.card-box > p{
   margin-top: 20px;
 }
 .card-box:hover{

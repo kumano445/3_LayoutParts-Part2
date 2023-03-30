@@ -11,20 +11,17 @@
   font-size: 16px;
 
 }
-.content:before {
+.content:before,.content:after{
   position: absolute;
   content: "";
-  top: 100%;
-  left: 36px;
-  border: 8px solid transparent;
-  border-top: 8px solid  #fad296;
-  z-index: 2;
+  border: 20px solid transparent;
+  left: 30px;
+}
+.content:before {
+  border-top: 20px solid  #8f5a0a;
+  bottom: -45px;
 }
 .content:after {
-  position: absolute;
-  content: '';
-  top: 100%;
-  left: 30px;
-  border: 14px solid transparent;
-  border-top: 14px solid  #8f5a0a;
+  border-top: 20px solid  #fad296;
+  bottom: -38px;
 }
